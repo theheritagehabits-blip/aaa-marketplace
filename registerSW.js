@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/aaa-marketplace/sw.js', { scope: '/aaa-marketplace/' })})}
