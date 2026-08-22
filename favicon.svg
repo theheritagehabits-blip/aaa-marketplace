@@ -1,10 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Clokkit">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2563eb"/>
-      <stop offset="1" stop-color="#1e3a8a"/>
+    <linearGradient id="g" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#D9A441"/>
+      <stop offset="1" stop-color="#8A5A22"/>
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#g)"/>
-  <text x="32" y="43" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">AAA</text>
+  <!-- Open C ring with a checkmark nested inside — the same mark as the app icon,
+       drawn as paths so it stays crisp at 16px in a browser tab. -->
+  <path fill="none" stroke="#FBEEDD" stroke-width="7" stroke-linecap="round"
+        d="M45 20.5A17.5 17.5 0 1 0 45 43.5"/>
+  <path fill="none" stroke="#FBEEDD" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"
+        d="m25.5 32.5 5 5 10.5-11"/>
 </svg>
